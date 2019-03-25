@@ -1,0 +1,21 @@
+{
+    "name": "qrcms/qrcms",
+	"description":"The QRCMS Core Package",
+    "type": "project",
+    "authors": [
+        {
+            "name": "yanglin854",
+            "email": "87495363@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+	"autoload":{
+		"psr-4":{
+			"qr\\":"src"
+		},
+        "files": [
+            "src/common.php"
+        ]
+	}
+}
